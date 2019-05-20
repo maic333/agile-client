@@ -1,0 +1,35 @@
+{
+  "name": "agile-client",
+  "version": "0.1.0",
+  "description": "Abstract client used to perform Request-Response communication over any type of connection",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maic333/agile-client.git"
+  },
+  "keywords": [
+    "agile",
+    "client",
+    "request",
+    "tcp"
+  ],
+  "author": "Maic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maic333/agile-client/issues"
+  },
+  "homepage": "https://github.com/maic333/agile-client#readme",
+  "devDependencies": {
+    "@types/uuid": "^3.4.4",
+    "tslint": "^5.16.0",
+    "tslint-mi-config": "git+https://github.com/maic333/tslint-mi-config.git",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
